@@ -1,0 +1,16 @@
+{
+  "name": "ivr-example-nodejs",
+  "version": "1.0.0",
+  "description": "* Register a Nexmo application * Purchase a number and associate that number with your application * Populate API key/secret, application ID and make sure that `private.key` exists at the same level as `index.js` * Update the event URL to be your server * Run index.js then call your number",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Heap <michael.heap@vonage.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "moment": "^2.20.1",
+    "nexmo": "^2.2.0"
+  }
+}
